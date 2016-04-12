@@ -9,18 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Karson Hatch"]
   spec.email         = ["karsonhatch@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{This does what it do.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{If you don't alredy know what this gem does, you don't need to know.}
+  spec.description   = %q{It does what it do.}
+  spec.homepage      = "https://github.com/karsonhatch/this_is_a_gem."
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
-  # delete this section to allow pushing this gem to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
-  end
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
